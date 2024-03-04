@@ -3,7 +3,8 @@
     margin: 0;
 }
 
-body{
+main{
+    width: 1200px;
     margin: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px
@@ -12,11 +13,11 @@ header {
 
     background-image: url(../img/pattern.png);
     background-size: 350px;
-    background-repeat: repeat-20;
     background-color: rgb(105, 162, 238);
     margin-bottom: 20px;
 }
 header img{
+    margin: auto;
     padding: 20px 0 10px 10px;
     width: 300px;
 }
