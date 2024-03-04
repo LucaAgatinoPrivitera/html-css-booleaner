@@ -6,8 +6,8 @@
 body{
     width: 1200px;
     margin: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px
 }
 header {
 
@@ -15,6 +15,7 @@ header {
     background-size: 350px;
     background-repeat: repeat-20;
     background-color: rgb(105, 162, 238);
+    margin-bottom: 20px;
 }
 header img{
     padding: 20px 0 10px 10px;
@@ -24,8 +25,12 @@ section{
     margin-bottom: 40px;
 }
 
-section div span, section div p{
+section div span, section div p, #ads{
     color: grey;
+}
+#data{
+    font-size: 0.7rem;
+    margin-bottom: 20px;
 }
 .cyan{
     color: rgb(23, 179, 252);
@@ -36,7 +41,33 @@ section div span, section div p{
     display: flex;
     justify-content: space-between;
 }
+.figcaption{
+    font-size: 0.4rem;
+}
 
 .list{
     margin-top: 40px;
+}
+
+table{
+    text-align: left;
+}
+thead{
+    background-color: rgb(21, 128, 216);
+    color: white;
+}
+tbody{
+    background-color: rgb(143, 240, 240);
+}
+
+.hero{
+    color: grey;
+    position: relative;
+}
+
+.over{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: white;
 }
