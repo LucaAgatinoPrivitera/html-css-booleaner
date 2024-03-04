@@ -54,6 +54,10 @@ ul{
 table{
     text-align: left;
     border-spacing: 0;
+    margin-top: 20px;
+}
+#table_section{
+    margin-bottom: 20px;
 }
 thead{
     background-color: rgb(21, 128, 216);
@@ -76,4 +80,7 @@ tbody tr:nth-child(2){
     top: 20px;
     left: 10px;
     color: white;
+}
+#ads{
+    margin-top: 20px;
 }
