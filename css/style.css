@@ -45,12 +45,16 @@ section div span, section div p, #ads{
     font-size: 0.4rem;
 }
 
+ul{
+    padding-left: 15px;
+}
 .list{
     margin-top: 40px;
 }
 
 table{
     text-align: left;
+    border-spacing: 0;
 }
 thead{
     background-color: rgb(21, 128, 216);
@@ -58,6 +62,9 @@ thead{
 }
 tbody{
     background-color: rgb(143, 240, 240);
+}
+tbody tr:nth-child(2){
+    background-color: white;
 }
 
 .hero{
